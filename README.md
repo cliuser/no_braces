@@ -10,7 +10,7 @@ nvim is forced to "noet ts=4".
 
 clang is installed on OS, so "set equalsprog=clang-format"
 
-File needs to be beautified first. Let treesitter/clang do it. TODO: pick style.
+File needs to be beautified first. Let treesitter/clang do it. TODO: pick style. conform.nvim for many langs other than C. Format on load if ts. buf.format() is fast enough, and if it can be forced to use tabs (PEP8 pain).
 
 Upgrade any antique K&R C code to ANSI and autosave: TODO. Yes, it's still out there.
 
